@@ -1,4 +1,4 @@
-public class Circle {
+public class Circle extends Shape{
     //starting my code after branch
     double radious=1.0;
     public Circle(){
@@ -22,5 +22,10 @@ public class Circle {
     }
     public double gerPerimeter(double radious){
         return 2*Math.PI*radious;
+    }
+
+    @Override
+    public String toString() {
+        return "A Circle with radious= " + radious + ", which is a subclass of Shape";
     }
 }
