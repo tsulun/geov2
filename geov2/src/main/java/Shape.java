@@ -28,4 +28,10 @@ public class Shape {
     public void setFilled(Boolean filled) {
         this.filled = filled;
     }
+
+    @Override
+    public String toString() {
+        return "A Shape with color of "
+                + color + " and " + filled ;
+    }
 }
