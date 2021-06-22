@@ -31,7 +31,13 @@ public class Shape {
 
     @Override
     public String toString() {
-        return "A Shape with color of "
-                + color + " and " + filled ;
+        if(this.filled==true) {
+            return "A Shape with color of "
+                    + color + " and filled";
+        }
+        else{
+            return  "A Shape with color of "
+                    + color + " and not filled" ;
+        }
     }
 }
