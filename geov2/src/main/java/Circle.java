@@ -3,4 +3,7 @@ public class Circle {
     double radious=1.0;
     public Circle(){
     }
+    public Circle(double radious){
+        this.radious=radious;
+    }
 }
