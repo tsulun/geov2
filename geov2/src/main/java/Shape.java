@@ -1,10 +1,15 @@
 public class Shape {
 
     String color;
-    // hello there
-    //hello
+    Boolean filled;
 
-    //hello from Yahya
+    public Shape() {
+        this.color="green";
+        this.filled=true;
+    }
 
-    //hell from Seda
+    public Shape(String color, Boolean filled) {
+        this.color = color;
+        this.filled = filled;
+    }
 }
