@@ -17,4 +17,10 @@ public class Circle {
     public void setRadious(double radious) {
         this.radious = radious;
     }
+    public double getArea(double radious){
+        return Math.PI*radious*radious;
+    }
+    public double gerPerimeter(double radious){
+        return 2*Math.PI*radious;
+    }
 }
