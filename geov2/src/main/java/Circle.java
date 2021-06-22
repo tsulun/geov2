@@ -6,4 +6,7 @@ public class Circle {
     public Circle(double radious){
         this.radious=radious;
     }
+    public Circle(double radious, String color, boolean filled){
+        this.radious=radious;
+    }
 }
