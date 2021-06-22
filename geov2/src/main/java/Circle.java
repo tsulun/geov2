@@ -9,4 +9,12 @@ public class Circle {
     public Circle(double radious, String color, boolean filled){
         this.radious=radious;
     }
+
+    public double getRadious() {
+        return radious;
+    }
+
+    public void setRadious(double radious) {
+        this.radious = radious;
+    }
 }
