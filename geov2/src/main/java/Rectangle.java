@@ -9,9 +9,9 @@ public class Rectangle extends Shape{
         this.width = width;
         this.length = length;
     }
-    /*
+
     public Rectangle(double width, double length, String color, boolean filled) {
-        super(color,filled);
+       // super(color,filled);
         this.width = width;
         this.length = length;
     }
