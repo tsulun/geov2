@@ -6,4 +6,8 @@ public class Triangle {
     public double TrianglePerimeter(){
         return (3 * base);
     }
+
+    public int getBase() {
+        return base;
+    }
 }
