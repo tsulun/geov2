@@ -10,4 +10,12 @@ public class Triangle {
     public int getBase() {
         return base;
     }
+
+    public void setBase(int base) {
+        this.base = base;
+    }
+
+    public void setHeight(int height) {
+        this.height = height;
+    }
 }
