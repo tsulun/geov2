@@ -1,4 +1,5 @@
 public class Rectangle extends Shape{
+
     public double width = 1.0;
     public double length = 1.0;
 
@@ -11,11 +12,10 @@ public class Rectangle extends Shape{
     }
 
     public Rectangle(double width, double length, String color, boolean filled) {
-       // super(color,filled);
+        super(color,filled);
         this.width = width;
         this.length = length;
     }
-     */
 
     public double getWidth() {
         return width;
@@ -41,13 +41,11 @@ public class Rectangle extends Shape{
         return 2 *(length+width);
     }
 
-    /*
-    @java.lang.Override
-    public java.lang.String toString() {
-        return "A Rectangle with width=" + width
+    @Override
+    public String toString() {
+        return "A Rectangle with width= " +width
                 + "and length= " + length
-                +", which is a subclass of"+super.toString
-                ;
+                +", which is a subclass of"+super.toString();
     }
-     */
+
 }
